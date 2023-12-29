@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css">
+        <script src="script.js"></script>
+    <title>Count Down</title>
+</head>
+<body>
+    <h1 id="caption">The Ultimate Count Down Timer Utility</h1>
+
+    <form action="" id="dateView">
+            Caption: <input type="text" placeholder="Caption" id="caption-input">
+            End Date/Time: <input class="date" type="date" id="end">
+            <input type="submit" value="Count Down" id="submit">
+    </form>
+
+    <div id="countDownView">
+        <div class="countdown-container">
+            <div class="countdown-inner days-c">
+                <p class="big-text" id="days">00</p>
+                <span>days</span>
+            </div>
+            <div class="countdown-inner hours-c">
+                <p class="big-text" id="hours">00</p>
+                <span>hours</span>
+            </div>
+            <div class="countdown-inner minutes-c">
+                <p class="big-text" id="minutes">00</p>
+                <span>minutes</span>
+            </div>
+            <div class="countdown-inner seconds-c">
+                <p class="big-text" id="seconds">00</p>
+                <span>seconds</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
